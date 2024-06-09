@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.kumoe.conquest.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EntityRenderersMixin"
+  ],
+  "client": [
+    "ItemGroupMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "Refabricated-refmap.json"
+}
